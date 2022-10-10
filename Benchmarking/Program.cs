@@ -5,3 +5,4 @@ using System.Reflection;
 Console.WriteLine("Hello, World!");
 
 var summary = BenchmarkDotNet.Running.BenchmarkRunner.Run(Assembly.GetExecutingAssembly());
+ 

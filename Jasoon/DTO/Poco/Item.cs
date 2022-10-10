@@ -16,7 +16,5 @@ public record ItemWithFullDetails
     public Guid Id { get; init; }
     public string Name { get; init; } = string.Empty;
     public string FullName { get; init; } = string.Empty;
-
-
 }
 
